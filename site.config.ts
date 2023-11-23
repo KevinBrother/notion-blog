@@ -6,7 +6,7 @@ export default siteConfig({
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: null,
+  rootNotionSpaceId: '',
 
   // basic site info (required)
   name: 'kssbox',
@@ -14,11 +14,11 @@ export default siteConfig({
   author: 'kssbox',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'Next.js Notion blog',
 
   // social usernames (optional)
   // twitter: '#',
-  github: 'kevinbrother',
+  // github: 'kevinbrother',
   // linkedin: '#',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
